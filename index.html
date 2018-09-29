@@ -16,22 +16,70 @@
 </head>
 
 <body>
-<!-- nav -->
-  
-  <!-- Comienzo header -->
-  
-  <header>
+
+  <!--Main Navigation-->
+  <header id="home">
+    <!-- Comienzo nav -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark purple darken-2 scrolling-navbar">
+      <div class="container">
+        <a class="navbar-brand" href="#home">
+          <strong>DF</strong>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+          aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#portfolio">Portafolio
+                <span class="sr-only"></span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skills">Habilidades</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">Sobre mí</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contacto</a>
+            </li>
+          </ul>
+          <ul class="navbar-nav nav-flex-icons">
+            <li class="nav-item">
+              <a class="nav-link">
+                <i class="fa fa-facebook"></i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link">
+                <i class="fa fa-twitter"></i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link">
+                <i class="fa fa-instagram"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Comienzo Home -->
+
     <div class="container">
       <div class="row">
         <div class="col-md-12">
           <h1>Daniela Flores</h1>
           <h2>UX Designer</h2>
+          <p id="frase">a multidisciplinary designer specializing in UX and Visual Design. </p>
         </div>
       </div>
     </div>
- 
-  </header>
 
+
+  </header>
   <!-- Comienzo Portafolio -->
   <section id="portfolio">
     <div class="container">
@@ -45,10 +93,8 @@
       <!-- Comienzo de card py -->
       <div id="card-py" class="row">
         <div class="col-md-4">
-
-          <!-- Card -->
+          <!-- Card E-COMMERCE -->
           <div class="card">
-
             <!-- Card image -->
             <div class="view overlay">
               <img class="card-img-top" src="https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(67).jpg" alt="Card image cap">
@@ -56,28 +102,21 @@
                 <div class="mask rgba-white-slight"></div>
               </a>
             </div>
-
             <!-- Card content -->
             <div class="card-body">
-
               <!-- Title -->
-              <h4 class="card-title">Card title</h4>
+              <h4 class="card-title">E-commerce</h4>
               <!-- Text -->
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <p class="card-txt">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
               <!-- Button -->
-              <a href="#" class="btn btn-primary">Button</a>
-
+              <a href="#" id="card" class="btn btn-">Button</a>
             </div>
-
           </div>
-          <!-- Card -->
-
-
+          <!-- FIN Card -->
         </div>
         <div class="col-md-4">
-          <!-- Card -->
+          <!-- Card FINTECH-->
           <div class="card">
-
             <!-- Card image -->
             <div class="view overlay">
               <img class="card-img-top" src="https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(67).jpg" alt="Card image cap">
@@ -85,26 +124,21 @@
                 <div class="mask rgba-white-slight"></div>
               </a>
             </div>
-
             <!-- Card content -->
             <div class="card-body">
-
               <!-- Title -->
-              <h4 class="card-title">Card title</h4>
+              <h4 class="card-title">Fintech</h4>
               <!-- Text -->
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <p class="card-txt">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
               <!-- Button -->
-              <a href="#" class="btn btn-primary">Button</a>
-
+              <a href="#" class="btn btn-">Button</a>
             </div>
-
           </div>
-          <!-- Card -->
+          <!-- FIN Card -->
         </div>
         <div class="col-md-4">
-          <!-- Card -->
+          <!-- Card PROYECTO X -->
           <div class="card">
-
             <!-- Card image -->
             <div class="view overlay">
               <img class="card-img-top" src="https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(67).jpg" alt="Card image cap">
@@ -112,27 +146,74 @@
                 <div class="mask rgba-white-slight"></div>
               </a>
             </div>
-
             <!-- Card content -->
             <div class="card-body">
-
               <!-- Title -->
-              <h4 class="card-title">Card title</h4>
+              <h4 class="card-title">Proyecto X</h4>
               <!-- Text -->
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <p class="card-txt">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
               <!-- Button -->
-              <a href="#" class="btn btn-primary">Button</a>
-
+              <a href="#" class="btn btn-">Button</a>
             </div>
-
           </div>
-          <!-- Card -->
+          <!-- FIN Card -->
         </div>
       </div>
     </div>
     <!-- Fin Portafolio -->
   </section>
--->
+  <!-- Comienzo Habilidades -->
+  <section id="skills">
+    <div class="container">
+      <!-- Comienzo titulo -->
+      <div class="row">
+        <div class="col-md-12">
+          <h3>Habilidades</h3>
+          <hr class="center-align">
+        </div>
+      </div>
+      <!--Comienzo de contenido -->
+      <div class="row">
+        <div class="col-md-3">
+          <div class="skillbox">
+            <img src="assets/img/svg/001-research.svg" alt="" class="img-fluid">
+            <h5 class="textskill">Research</h5>
+            <p>Entrevistas</p>
+            <p>Investigacion</p>
+            <p>Benchmark</p>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="skillbox">
+            <img src="assets/img/svg/001-research.svg" alt="" class="img-fluid">
+            <h5 class="textskill">Infotectura</h5>
+            <p>Inventario de contenidos</p>
+            <p>Card sorting</p>
+            <p>Flujo de contenidos</p>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="skillbox">
+            <img src="assets/img/svg/001-research.svg" alt="" class="img-fluid">
+            <h5 class="textskill">Design</h5>
+            <p>Wireframing</p>
+            <p>Prototipado</p>
+            <p>Testing</p>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="skillbox">
+            <img src="assets/img/svg/001-research.svg" alt="" class="img-fluid">
+            <h5 class="textskill">Development</h5>
+            <p>HTML</p>
+            <p>CSS</p>
+            <p>Javascript</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
   <!-- Comienzo Sobre mí -->
   <section id="about">
     <div class="container">
@@ -146,22 +227,20 @@
       <!--Comienzo de contenido -->
       <div class="row">
         <div class="col-md-6">
-          <img id="photo" src="assets/img/IMG_20180910_134604.jpg" alt="">
-         
+          <img class="card-img-top" src="https://mdbootstrap.com/img/Mockups/Lightbox/Thumbnail/img%20(67).jpg" alt="Card image cap">
+          <!-- ACÁ VA IAGEN DE PERFIL -->
         </div>
-        <div class="col-md-6">
-            <p class="center-align">Hola soy Daniela, una UX Designer con conocimientos en economía y negocios.</p>
-            <p class="center-align">Mi formación profesional fue a través de Laboratoria, una start-up social con varias sedes en Latinoamerica que
-              consiste en un curso intensivo de 6 meses donde aprendemos programación y una especialidad. En este curso realicé
-              proyectos orientados a diseño y rediseño de productos tecnológicos.</p>
-            <p class="center-align"> Apasionada en investigar, idear, crear y diseñar soluciones que satisfacen las necesidades de las personas en equilibrio
-              con los objetivos de las empresas, aplicado en productos y servicios tecnológicos.</p>
+        <div class="col-md-6" id="bio">
+          <p class="center-align">Hola soy Daniela, una UX Designer con conocimientos en economía y negocios.</p>
+          <p class="center-align"> Apasionada en investigar, idear, crear y diseñar soluciones que satisfacen las necesidades de las personas en equilibrio
+            con los objetivos de las empresas, aplicado en productos y servicios tecnológicos.</p>
         </div>
       </div>
     </div>
   </section>
-  <!-- Comienzo Footer -->
-  <footer id="contact">
+
+  <!-- Contacto -->
+  <section id="contact">
     <div class="container">
       <!-- Comienzo titulo -->
       <div class="row">
@@ -172,12 +251,45 @@
       </div>
       <!-- Comienzo contenido -->
       <div class="row">
-        <div class="col-md-12">
-      
+        <div class="col-md-4">
+          <p class="center-align">florescaceresdaniela@gmail.com</p>
+        </div>
+        <div class="col-md-4">
+          <p class="center-align">linkedin</p>
+        </div>
+        <div class="col-md-4">
+          <p class="center-align">github</p>
         </div>
       </div>
     </div>
-    <!-- Fin Footer -->
+    </div>
+  </section>
+  <!-- Comienzo Footer -->
+  <footer id="foot">
+    <div class="container">
+      <!-- Comienzo titulo -->
+      <div class="row">
+        <div class="col-md-12">
+          <p class="center-align">Creado por Daniela Flores</p>
+        </div>
+      </div>
+      <!-- Fin Footer -->
   </footer>
 
+  <!-- JQuery -->
+  <script type="text/javascript" src="assets/js/jquery-3.3.1.min.js"></script>
+
+  <!-- Tooltips -->
+  <script type="text/javascript" src="assets/js/popper.min.js"></script>
+
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="assets/js/mdb.min.js"></script>
+  <script>
+    wow = new WOW().init();
+  </script>
 </body>
+
+</html>

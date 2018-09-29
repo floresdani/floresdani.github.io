@@ -1,6 +1,7 @@
 h1{
   font-family: 'Oswald';
   font-size: 16vh;
+  color: #7b1fa2;
 }
 h2{
   font-family: 'Oswald';
@@ -9,24 +10,51 @@ h2{
 
 h3 {
   font-family: 'Oswald';
-  font-size: 4vh;
+  font-size: 6vh;
   text-align: center;
 }
 header{
-  padding: 15vh 0;
-  background-color: blueviolet;
+  padding: 35vh 0;
+  background-image: url(../img/edho-pratama-149011-unsplash.jpg);
+  background-size: 100vh 100vw;
+  background-repeat: no-repeat;
+}
+
+.pink {
+  background-color: #7b1fa2;
+}
+
+#frase{
+  font-family: 'Oswald';
+  font-style: italic;
+  font-size: 4vh;
 }
 
 #portfolio {
-  padding: 5vh 0;
+  padding: 10vh 0;
 }
 
 #about {
-  padding: 5 vh0;
+  padding: 10vh 0;
+}
+
+#bio {
+  padding: 10vh;
+  font-family: 'Montserrat';
+  font-size: 3vh;
+}
+
+#skills {
+  padding: 10vh 0;
+}
+
+#icon {
+  max-width: 100%;
+  height: auto;
 }
 
 #contact {
-  padding: 5vh 0;
+  padding: 10vh 0;
 }
 
 .center-align {
@@ -35,8 +63,8 @@ header{
 
 hr {
   
-  height: 0.5vh;
-  background-color: blueviolet;
+  height: 0.8vh;
+  background-color:#7b1fa2;
 }
 
 #card-py {
@@ -48,4 +76,43 @@ margin-right: auto;
 
 #photo {
   width: 100%;
+}
+
+.btn {
+background-color: #ae52d4;
+color: black;
+
+}
+
+a:hover {
+  color: white;
+}
+
+.nav-link {
+  color: black;
+}
+
+nav {
+box-shadow: none;
+}
+
+#menunav {
+  background-color: #c7c7c7;
+}
+
+.skillbox {
+  display: block;
+  text-align: center;
+  padding: 0 15%;
+  margin:3vh 0;
+}
+
+.textskill {
+  margin:5vh 0;
+  font-style: bold;
+  font-family: 'Montserrat';
+}
+
+.card-txt {
+  font-family: 'Montserrat';
 }
