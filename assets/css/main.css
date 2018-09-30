@@ -46,8 +46,12 @@ header{
   padding: 10vh 0;
 }
 
+#perfilfoto {
+  padding-top: 8vh;
+}
+
 #bio {
-  padding: 10vh;
+  padding: 14vh;
   font-family: 'Montserrat';
   font-size: 3vh;
 }
