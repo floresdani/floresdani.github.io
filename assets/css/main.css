@@ -181,3 +181,32 @@ h6 {
   height: auto;
  
 }
+
+.head2 {
+  font-size: 1.5em;
+  line-height: 1.7;
+  font-weight: 600;
+  margin: 10px auto;
+  letter-spacing: 0.2px;
+  color: #333;
+  font-family: 'Montserrat'
+}
+
+h6 {
+  font-size: 1.5em;
+  line-height: 1.7;
+  font-weight: 600;
+  margin: 10px auto;
+  letter-spacing: 0.2px;
+  color: #7b1fa2;
+  font-family: 'Montserrat'
+}
+
+.head1 {
+  line-height: 1.7;
+  font-weight: 600;
+  margin-bottom: 15px;
+  font-size: 2em;
+  letter-spacing: 0.5px;
+  margin-top: -5px;
+}
