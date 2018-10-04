@@ -4,20 +4,26 @@ body {
 }
 
 h1{
-  font-family: 'Oswald';
-  font-size: 16vh;
+  font-family: 'Montserrat';
+  font-size: 12vh;
   color: #7b1fa2;
 
 }
 h2{
-  font-family: 'Oswald';
-  font-size: 8vh;
+  font-family: 'Montserrat';
+  font-size: 6vh;
 }
 
 h3 {
-  font-family: 'Oswald';
+  font-family: 'Montserrat';
   font-size: 6vh;
   text-align: center;
+}
+
+#frase{
+  font-family: 'Montserrat';
+  font-style: italic;
+  font-size: 3vh;
 }
 
 
@@ -30,12 +36,6 @@ header{
 
 .pink {
   background-color: #7b1fa2;
-}
-
-#frase{
-  font-family: 'Oswald';
-  font-style: italic;
-  font-size: 4vh;
 }
 
 #portfolio {
@@ -210,3 +210,4 @@ h6 {
   letter-spacing: 0.5px;
   margin-top: -5px;
 }
+
