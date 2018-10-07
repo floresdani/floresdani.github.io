@@ -282,3 +282,6 @@ li {
   padding-right: 8vh;
 }
 
+.nav-item {
+  padding-right: 0vh; 
+}
