@@ -241,9 +241,6 @@ h6 {
   font-size: 2.5vh;
 }
 
-.view {
-  /*margin-top: -4vh;*/
-}
 .cterleft {
 text-align: left;
 }
@@ -285,3 +282,10 @@ li {
 .nav-item {
   padding-right: 0vh; 
 }
+
+.centerimg {
+  align-items: center;
+  
+}
+
+
