@@ -21,11 +21,10 @@ h3 {
   font-family: 'Montserrat';
   font-size: 5vh;
   text-align: left;
+  font: bold;
 }
 
-hr {
 
-}
 
 #titlename {
   color: white;
@@ -85,11 +84,11 @@ header{
 
 hr {
   
-  height: 0.8vh;
+  height: 0.1vh;
   background-color:#7b1fa2;
 }
 
-#hrthin {
+#thin {
   height: 0.2vh;
   background-color: lightgray;
 }
@@ -171,7 +170,7 @@ padding-top: 5vh;
 .title2 {
   color: white;
   text-align: left;
-  font-size: 10vh;
+  font-size: 8vh;
   
   
 }
@@ -179,7 +178,7 @@ padding-top: 5vh;
 .subb {
   color: white;
   text-align: left;
-  font-size: 5vh;
+  font-size: 4vh;
   
 }
 
@@ -212,12 +211,9 @@ h6 {
 }
 
 h6 {
-  font-size: 1.5em;
-  line-height: 1.7;
-  font-weight: 600;
-  margin: 10px auto;
-  letter-spacing: 0.2px;
-  color: #7b1fa2;
+  font-size: 3.5vh;
+font: bold;
+   color: #7b1fa2;
   font-family: 'Montserrat'
 }
 
